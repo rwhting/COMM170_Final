@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
-public class PositiveChoice : MonoBehaviour
+public class Choice : MonoBehaviour
 {
     public int score;
-    public Text scoreText;
+    public TextMeshProUGUI scoreText;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +20,13 @@ public class PositiveChoice : MonoBehaviour
     	scoreText.text = score.ToString();    
     }
     
-    void Add()
+    public void Add()
     {
         score++;
+    }
+
+    public void Delete()
+    {
+        score--;
     }
 }
