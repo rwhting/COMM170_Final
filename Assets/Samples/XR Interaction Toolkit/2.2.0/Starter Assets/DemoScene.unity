@@ -763,6 +763,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hit: 0
+  waypoints:
+  - {fileID: 424471851}
+  speed: 20
 --- !u!135 &424471865
 SphereCollider:
   m_ObjectHideFlags: 0
