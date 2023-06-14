@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/New Scene.unity
     guid: f145cb4ccb87f2d4b8fbe00fd1223198
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Finale.unity
+    guid: e9767d8968788f44d8cd904395aabf89
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 445e633fbe16bdc4084ba7293b1b4bab,
       type: 2}
